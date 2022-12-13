@@ -71,8 +71,13 @@ export default function Contact() {
           </h2>
           <p className="leading-relaxed mb-5">
             Looking for 2023 Fall Software Engineer Internship/Co-op.
+            <br />
+            Willing to relocate and open to work from home.
+            <br />
+            Please let me know if you are interested! Feel free to send email,
+            call, or text me.
           </p>
-          <div className="relative mb-4">
+          {/*<div className="relative mb-4">
             <label htmlFor="name" className="leading-7 text-sm text-gray-400">
               Name
             </label>
@@ -115,7 +120,7 @@ export default function Contact() {
             className="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
           >
             Submit
-          </button>
+          </button>*/}
         </form>
       </div>
     </section>
